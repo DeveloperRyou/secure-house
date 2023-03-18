@@ -1,0 +1,9 @@
+Name : Ryou Sungmin
+Student ID : 2018147553
+Description : 
+Program has two structures which are t_secure_data, t_house.
+Structure t_secure_data has information about security and structure t_house has information of house state.
+After initiating t_secure_data and t_house, the program start to loop to get line(operation).
+Program get a line and parse line to excute the exact operation.
+Operation is for INSERT, TURN, ENTER, CHANGE_LOCKS, LEAVE, WHO'S INSIDE.
+Each operation checks t_secure_data and t_house to make their operation and print state.

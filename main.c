@@ -33,7 +33,6 @@ void loop(t_secure_data *secure_data, t_house *house)
 		if (*line == '\n')
 			break;
 		operator(secure_data, house, line);
-		//system("leaks secure_house");
 	}
 	free(line);
 }
@@ -51,5 +50,4 @@ int main(int argc, char **argv)
 	initHouse(house);
 	loop(secure_data, house);
 	free_all(secure_data, house);
-	system("leaks secure_house");
 }
